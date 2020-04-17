@@ -22,9 +22,10 @@ public class Zwembad {
         return diepte;
     }
 
-    public double getInhoud() {
+    public double inhoud() {
         return breedte * lengte * diepte;
     }
+
     public String toString() {
         String s = "Dit zwembad is " + breedte + " meter breed, " + lengte + " meter lang, en " + diepte + " meter diep";
         return s;
